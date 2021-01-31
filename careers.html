@@ -36,12 +36,21 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<style>
+		#career_form-btn:hover {
+			color: white;
+		}
+	</style>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+
+	<!-- Custom JS -->
+	<script defer src="js/secondary.js"></script>
 
 </head>
 
@@ -78,10 +87,10 @@
 						<h2 style="color:black;">Careers at Ellum Labs</h2>
 						<p>
 							At Ellum Labs, we are a software development and software consulting team that loves to
-							create elegent and technically advanced products.
-							We are commited to deliver high quality software solutions to our clients. We are also
-							commited to providing all of our employees an environment that
-							fosters growth and ensures all employees have a voice. We look foward to learning more
+							create elegant and technically advanced products.
+							We are committed to delivering high quality software solutions to our clients. We are also
+							committed to providing all of our employees an environment that
+							fosters growth and ensures all employees have a voice. We look forward to learning more
 							about you!
 						</p>
 					</div>
@@ -89,7 +98,7 @@
 				<div class="row animate-box">
 					<div class="col-md-6 col-md-offset-3 text-center heading-section">
 						<h3>Current Openings</h3>
-						<p>We are commited to growing our team with diverse and passionate individuals. We encourage
+						<p>We are committed to growing our team with diverse and passionate individuals. We encourage
 							applications from all qualified candidates.</p>
 					</div>
 					<div class="col-md-8 col-md-offset-2 text-center heading-section">
@@ -114,24 +123,24 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="First Name"
+										<input type="text" class="form-control" id="career_form-fn" placeholder="First Name"
 											style="color:#fff;">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Last Name"
+										<input type="text" class="form-control" id="career_form-ln" placeholder="Last Name"
 											style="color:#fff;">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Email" style="color:#fff;">
+										<input type="text" class="form-control" id="career_form-email" placeholder="Email" style="color:#fff;">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="submit" value="Submit" class="btn btn-primary">
+										<input type="submit" value="Submit" class="btn btn-primary" id="career_form-btn">
 									</div>
 								</div>
 							</div>
